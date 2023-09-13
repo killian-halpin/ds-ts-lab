@@ -21,6 +21,17 @@ const friend1: Friend = {
   console.log(friends[1]);
   
   //   -------------------
+  interface Colleague {
+    name: string;
+    department: string;
+    contact: {
+        email: string 
+        extension: number
+    }
+   
+}
+
+
   const colleague1 = {
     name: "Grace O SUllivan",
     department: "Engineering",
