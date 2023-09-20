@@ -1,7 +1,7 @@
 import {Friend, Colleague, ColleagueHistory } from './myTypes'
 
 
-export const friend1: Friend = {
+ const friend1: Friend = {
     name: "Jack Duggan",
     phone: "087-12345",
     age: 25,
@@ -13,7 +13,7 @@ export const friend1: Friend = {
     age: 31,
   };
   
-  const friends: Friend[] = [friend1, friend2];
+  export const friends: Friend[] = [friend1, friend2];
   console.log(friends[1]);
   
   //   -------------------
