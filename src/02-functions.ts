@@ -79,3 +79,16 @@ function findFriends(friends: Friend[], criteria:(friend: Friend)=> boolean): Fr
 
 console.log(findFriends(friends, (friend) => friend.name.startsWith('Ja')));
 console.log(findFriends(friends, (friend) => friend.age < 35));
+
+function addInterest(friend: Friend, newInterests: string){
+  if (!friend.interests) {
+
+      friend.interests = []; // Ensure interests array exists if it's not already made for that Friend
+  }
+   friend.interests.push(newInterests)
+   return friend.interests 
+  }
+  //test
+  console.log(addInterest(friends[1], 'Racing'))
+  console.log(findFriends(friends, (friend) => friend.name.startsWith('Ja')));
+console.log(findFriends(friends, (friend) => friend.age < 35));
