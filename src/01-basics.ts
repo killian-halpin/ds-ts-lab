@@ -21,10 +21,10 @@ import {Friend, Colleague, ColleagueHistory } from './myTypes'
   //   -------------------
 
   const colleague1: Colleague = {
-    name: "Grace O SUllivan",
+    name: "Hasan Berk",
     department: "Engineering",
     contact: {
-      email: "gosullican@company.com",
+      email: "hberk@company.com",
       extension: 121,
     },
   };
